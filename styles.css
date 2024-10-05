@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    color: white;
+    outline: solid 2px aqua;
+    text-align: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#navbar {
+    background-color: aqua;
+    /* height: 60px; */
+}
+
+#profile, #work-experience, #education {
+    /* border-bottom: solid aqua 5px; */
+}
+#profile {
+    /* padding-top: 50px; */
+    height: 100%;
+}
+#work-experience {
+    height: 100vh;
+}
+#education {
+    height: 100vh;
+}
+
+#fullname {
+    font-size: xx-large;
+    font-weight: 600;
+}
+#position, #contacts {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+#profile-pic {
+    height: 200;
+    width: auto;
+}
+.section-title {
+    margin-top: 50px;
+    background-color: aqua;
+    color: black;
+    font-weight: 600;
+    height: 25px;
+}
+.period {
+    padding-top: auto;
+    border: solid aqua 1px;
+}
+.description {
+    text-align: left;
+    border: solid aqua 1px;
+}
+.desc-header {
+    font-weight: 800;
+}
+.desc-position {
+    font-weight: 600;
+}
+.desc-body {
+    font-weight: 200
+}
+footer {
+    background-color: grey;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
