@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: white;
-    outline: solid 2px aqua;
+    /* outline: solid 2px aqua; */
     text-align: center;
     align-items: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -54,6 +54,8 @@ body {
 .description {
     text-align: left;
     border: solid aqua 1px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .desc-header {
     font-weight: 800;
@@ -70,6 +72,14 @@ footer {
 a {
     text-decoration: none;
     color: white;
+}
+#resume-canvas {
+    overflow-x: scroll;
+}
+#download-btn {
+    width: 120px;
+    background-color: aqua;
+    text-align: center;
 }
 
 

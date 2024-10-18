@@ -1,17 +1,18 @@
 <html lang="en"></html>
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Naqeeb's Portfolio!</title>
+    <title>Welcome to Naqeeb's Page!</title>
 </head>
 <body>
     <div class="container-fluid"> 
         <div class="row">
-            <nav id="navbar" class="navbar navbar-expand-sm fixed-top">
+            <nav id="navbar" class="navbar navbar-expand-md fixed-top">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
+                    <a class="navbar-brand" href="#">Naqeeb's Page</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -29,21 +30,18 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#portfolio" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Portfolio
+                                Portfolios
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#porfolio1">porfolio1</a></li>
+                                    <li><a class="dropdown-item" href="https://github.com/NaqeebHA/budgetify-laravel" target="_blank">PHP-Laravel</a></li>
                                     <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#porfolio2">porfolio2</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#porfolio3">porfolio3</a></li>
+                                    <li><a class="dropdown-item" href="https://github.com/NaqeebHA/Spring-Boot-Security-Bootstrap" target="_blank">Java-Spring</a></li>
+                                    <!-- <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#porfolio3">porfolio3</a></li> -->
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">Resume</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contacts">Contacts</a>
+                                <a class="nav-link"href="#resume">Resume</a>
                             </li>
                         </ul>
                     </div>
@@ -52,113 +50,121 @@
         </div>
         <div id="profile" class="row">
             <div class="section-title">Profile</div>
-                <img src="profile-pic.jpg" alt="profile-picture" class="rounded-circle mx-auto" id="profile-pic">
-                <div id="fullname">NAQEEB BIN HAKAM ADLI</div>
-                <div id="position">Junior Software Developer</div>
-                <div class="col"><a href="https://www.linkedin.com/in/naqeebha"><i class="bi bi-linkedin"></i></a></div>
-                <div class="col"><a><i class="bi bi-github"></i></a></div>
-                <div class="col"><a><i class="bi bi-github"></i></a></div>
-            <div class="row"></div>
+            <img src="profile-pic.jpg" alt="profile-picture" class="rounded-circle mx-auto" id="profile-pic">
+            <div id="fullname">NAQEEB BIN HAKAM ADLI</div>
+            <div id="position">Junior Software Developer</div>
+            <div class="col">
+                <a href="https://www.linkedin.com/in/naqeebha" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <div>linkedin.com/in/naqeebha</div>
+            </div>
+            <div class="col">
+                <a href="https://github.com/NaqeebHA" target="_blank"><i class="bi bi-github"></i></a>
+                <div>github.com/NaqeebHA</div>
+            </div>
+            <div class="col">
+                <a href="tel:+60109087732" target="_blank"><i class="bi bi-telephone"></i>&nbsp;<i class="bi bi-whatsapp"></i></a>
+                <div>+60109087732</div>
+            </div>
+            <div class="col">
+                <a href="mailto:naqeebha23@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
+                <div>naqeebha23@gmail.com</div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div><strong><em>English</em></strong></div>
+                    <div><em>Fluent</em></div>
+                </div>
+                <div class="col-4">
+                    <div><strong><em>Malay</em></strong></div>
+                    <div><em>Native</em></div>
+                </div>
+                <div class="col-4">
+                    <div><strong><em>Korean</em></strong></div>
+                    <div><em>Basic</em></div>
+                </div>
+            </div>
         </div>
         <div id="work-experience" class="row">
             <div class="section-title">Work Experience</div>
-            <div class="row">
-                <div class="col-md-3 period">Aug 2024 - Oct 2024</div>
-                <div class="col-md-9 description">
-                    <div class="desc-header">Stampede Solution Sdn Bhd</div>
-                    <div class="desc-position">Software Development Apprentice</div>
-                    <div class="desc-body">
-                        <ul>
-                            <li>In 3 months, successfully completed several fullstack development projects.</li>
-                            <li>Gained and applied skills of Laravel, MySQL, XAMPP, Virtual Hosts, HTML, JavaScript, CSS, Bootstrap, etc.</li>
-                            <li>Adapted to the company coding styles and standards effortlessly</li>
-                        </ul>
-                    </div>
+            <div class="col-md-3 period">Aug 2024 - Oct 2024</div>
+            <div class="col-md-9 description">
+                <div class="desc-header">Stampede Solution Sdn Bhd</div>
+                <div class="desc-position">Software Development Apprentice</div>
+                <div class="desc-body">
+                    <ul>
+                        <li>In 3 months, successfully completed several fullstack development projects.</li>
+                        <li>Gained and applied skills of Laravel, MySQL, XAMPP, Virtual Hosts, HTML, JavaScript, CSS, Bootstrap, etc.</li>
+                        <li>Adapted to the company coding styles and standards effortlessly</li>
+                    </ul>
                 </div>
-            </div> 
-            <div class="row">
-                <div class="col-md-3 period">Dec 2021 - Jan 2022</div>
-                <div class="col-md-9 description">
-                    <div class="desc-header"> Reso Engineering Sdn Bhd</div>
-                    <div class="desc-position"> Project Engineer</div>
-                    <div class="desc-body">
-                        <ul>
-                            <li>Led a team of 4 and finished a project earlier than the expected date.</li>
-                            <li>Gained experience in human, time, and cost management, as well as communication and problem
-                                solving skills.</li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="col-md-3 period">Dec 2021 - Jan 2022</div>
+            <div class="col-md-9 description">
+                <div class="desc-header"> Reso Engineering Sdn Bhd</div>
+                <div class="desc-position"> Project Engineer</div>
+                <div class="desc-body">
+                    <ul>
+                        <li>Led a team of 4 and finished a project earlier than the expected date.</li>
+                        <li>Gained experience in human, time, and cost management, as well as communication and problem
+                            solving skills.</li>
+                    </ul>
                 </div>
             </div>
         </div>
         <div id="education" class="row">
             <div class="section-title">Education</div>
-            <div class="row">
-                <div class="col-md-3 period">July 2024 - Oct 2024</div>
-                <div class="col-md-9 description">
-                    <div class="desc-header">Talentlabs</div>
-                    <div class="desc-position">Foundation Certificate in Software Development</div>
-                    <div class="desc-body">
-                        <ul>
-                            <li> Learned the necessary skills for a Software Engineer such as JavaScript, SQL, Git, AWS, Bootstrap,
-                                project management, etc.</li>
-                            <li> Using the skills mentioned above, constructed an eCommerce website database, wrote unit tests,
-                                deployed applications to cloud, built an interactive webpage using Bootstrap, etc.</li>
-                        </ul>
-                    </div>
+            <div class="col-md-3 period">July 2024 - Oct 2024</div>
+            <div class="col-md-9 description">
+                <div class="desc-header">Talentlabs</div>
+                <div class="desc-position">Foundation Certificate in Software Development</div>
+                <div class="desc-body">
+                    <ul>
+                        <li> Learned the necessary skills for a Software Engineer such as JavaScript, SQL, Git, AWS, Bootstrap,
+                            project management, etc.</li>
+                        <li> Using the skills mentioned above, constructed an eCommerce website database, wrote unit tests,
+                            deployed applications to cloud, built an interactive webpage using Bootstrap, etc.</li>
+                    </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-3 period">Oct 2023 - June 2024</div>
-                <div class="col-md-9 description">
-                    <div class="desc-header">Habsida Coding School</div>
-                    <div class="desc-position">Java Development Trainee</div>
-                    <div class="desc-body">
-                        <ul>
-                            <li>Obtained the necessary skills for a Java Developer such as Java Core, Hibernate ORM, RDBMS, Spring
-                                Framework, RESTful APIs, etc.</li>
-                            <li>Built projects that integrate a functional web application with security and RDBMS connection, as well
-                                as the backend of several actual mobile applications.</li>
-                        </ul>
-                    </div>
+            <div class="col-md-3 period">Oct 2023 - June 2024</div>
+            <div class="col-md-9 description">
+                <div class="desc-header">Habsida Coding School</div>
+                <div class="desc-position">Java Development Trainee</div>
+                <div class="desc-body">
+                    <ul>
+                        <li>Obtained the necessary skills for a Java Developer such as Java Core, Hibernate ORM, RDBMS, Spring
+                            Framework, RESTful APIs, etc.</li>
+                        <li>Built projects that integrate a functional web application with security and RDBMS connection, as well
+                            as the backend of several actual mobile applications.</li>
+                    </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-3 period">Mar 2022 - Feb 2024</div>
-                <div class="col-md-9 description">
-                    <div class="desc-header">KEPCO International Nuclear Graduate School</div>
-                    <div class="desc-position">Master's Degree in Nuclear Power Plant Engineering</div>
-                </div>
+            <div class="col-md-3 period">Mar 2022 - Feb 2024</div>
+            <div class="col-md-9 description">
+                <div class="desc-header">KEPCO International Nuclear Graduate School</div>
+                <div class="desc-position">Master's Degree in Nuclear Power Plant Engineering</div>
             </div>
-            <div class="row">
-                <div class="col-md-3 period">Sep 2017 - Oct 2021</div>
-                <div class="col-md-9 description">
-                    <div class="desc-header">University Teknologi Malaysia</div>
-                    <div class="desc-position">Bachelor's Degree in Nuclear Engineering</div>
-                </div>
+            <div class="col-md-3 period">Sep 2017 - Oct 2021</div>
+            <div class="col-md-9 description">
+                <div class="desc-header">University Teknologi Malaysia</div>
+                <div class="desc-position">Bachelor's Degree in Nuclear Engineering</div>
+            </div>
         </div>
-        
-        <footer class="text-light text-center">
-            <div class="row">
-                <div id="contacts">CONTACTS</div>
+        <div id="resume" class="row">
+            <div class="section-title">Resume</div>
+            <div class="row mx-auto my-2 px-5">            
+                <button id="download-btn" class="btn">
+                    <strong><i class="bi bi-download"></i>&nbsp;Download Resume</strong>
+                </button>
             </div>
-            <div class="row">
-                <div class="col">
-                    <i class="bi bi-linkedin"></i>
-                    <a href="https://www.linkedin.com/in/naqeebha">www.linkedin.com/in/naqeebha</a>
-                </div>
-                <div class="col">
-                    <i class="bi bi-envelope-fill"></i>
-                    <a href="mailto:naqeebha23@gmail.com">naqeebha23@gmail.com</a>
-                </div>
-                <div class="col">
-                    <i class="bi bi-whatsapp"></i>
-                    <a href="tel:+60109087732">+60109087732</a>
-                </div>
+            <div id="resume-canvas" class="col description p-5 mx-auto">
+                <canvas id="pdf-canvas"></canvas>   
             </div>
-        </footer>
+        </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
