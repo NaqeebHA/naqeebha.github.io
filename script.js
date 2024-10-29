@@ -1,4 +1,4 @@
-const url = 'resume.pdf';
+const url = 'RESUME_Naqeeb_(Oct 2024).pdf';
 
 const pdfjsLib = window['pdfjs-dist/build/pdf'];
 
